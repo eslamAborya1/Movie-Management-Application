@@ -1,0 +1,29 @@
+<app-dashboard-component></app-dashboard-component>
+<div class="dashboard-container">
+    <h2>List Of Movies</h2>
+   
+    <div *ngIf="error" class="error-message">
+      {{ error }}
+    </div>
+    
+    <div *ngIf="movies" class="movie-table">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Year</th>
+            <th>Genre</th>
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let movie of movies">
+            <td>{{ movie.title }}</td>
+            <td>{{ movie.year }}</td>
+            <td>{{ movie.genre }}</td>
+            
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
