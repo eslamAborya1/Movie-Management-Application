@@ -63,7 +63,7 @@ Angular CLI: Install Angular CLI globally using npm install -g @angular/cli.
 # Backend Setup
 Clone the repository:
 
-git clone https://github.com/your-username/movie-management-app.git
+git clone https://github.com/eslamAborya1/Movie-Management-Application.git
 Navigate to the backend directory:
 
 cd movie-management-app/backend
