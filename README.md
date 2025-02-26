@@ -11,7 +11,7 @@ Add/Remove Movies: Admins can add or remove movies from the application database
 
 Pagination: Movies are displayed with pagination for better usability (Bonus Feature).
 
-Regular User Dashboard
+# Regular User Dashboard
 Login Functionality: Secure login for regular users.
 
 View Movie List: Users can view the full list of movies added by the admin.
